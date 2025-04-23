@@ -1,0 +1,134 @@
+[
+  {
+    "Product": "Life Cover",
+    "Age Range": "10\u201374 (Ordinary)",
+    "Minimum Cover": "Not stated",
+    "Maximum Cover": "No stated cap (Home Duties max: $2 million)",
+    "Funeral Services": "Yes (Family Final Expenses up to $20k)",
+    "Payout": "Death / Terminal Illness",
+    "Eligibility": "All occupation categories. Home Duties limited to $2M.",
+    "Description": "Provides a lump sum if you die or are diagnosed with a terminal illness (expected to die within 24 months).",
+    "Company": "AIA"
+  },
+  {
+    "Product": "Income Protection",
+    "Age Range": "15\u201359 (Standard)",
+    "Minimum Cover": "Not stated",
+    "Maximum Cover": "Up to $30,000/month (A1\u2013A4); lower for others",
+    "Funeral Services": "No",
+    "Payout": "Monthly income",
+    "Eligibility": "Must work at least 20 hours/week. Based on occupation class.",
+    "Description": "Pays monthly benefit if you\u2019re unable to work due to injury or illness.",
+    "Company": "AIA"
+  },
+  {
+    "Product": "TPD (Total & Permanent Disablement)",
+    "Age Range": "15\u201359 (Standard)",
+    "Minimum Cover": "Not stated",
+    "Maximum Cover": "$5M max (Own Occupation max: $3M)",
+    "Funeral Services": "No",
+    "Payout": "Lump sum (permanent disablement)",
+    "Eligibility": "Must meet occupation/work hour requirements.",
+    "Description": "Pays lump sum if you are permanently unable to work again due to injury or illness.",
+    "Company": "AIA"
+  },
+  {
+    "Product": "Crisis Recovery",
+    "Age Range": "15\u201363 (Standard)",
+    "Minimum Cover": "$10,000",
+    "Maximum Cover": "$2,000,000 (Home Duties: $1 million)",
+    "Funeral Services": "No",
+    "Payout": "Lump sum (critical illness)",
+    "Eligibility": "Must meet definitions of crisis events (e.g. cancer, stroke, heart attack).",
+    "Description": "Pays a lump sum if diagnosed with a defined medical condition (stroke, heart attack, cancer, etc.).",
+    "Company": "AIA"
+  },
+  {
+    "Product": "Business Expenses",
+    "Age Range": "15\u201359 (Standard)",
+    "Minimum Cover": "Not stated",
+    "Maximum Cover": "Up to $60,000/month (A1\u2013A2); lower for others",
+    "Funeral Services": "No",
+    "Payout": "Monthly reimbursement of fixed expenses",
+    "Eligibility": "Must be working in eligible occupation.",
+    "Description": "Reimburses fixed business costs (e.g. rent, utilities) if you're unable to work due to injury or illness.",
+    "Company": "AIA"
+  },
+  {
+    "Product": "Allianz_Life",
+    "Age Range": "16-45",
+    "Minimum Cover": 100000,
+    "Maximum Cover": 1500000,
+    "Funeral Services": "Yes",
+    "Payout": "Death",
+    "Eligibility": "Australian Permanent Resident",
+    "Description": "Provides a lump sum payment in the event of death or diagnosis of a terminal illness where death is likely within 24 months.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_Life",
+    "Age Range": "46-55",
+    "Minimum Cover": 100000,
+    "Maximum Cover": 1000000,
+    "Funeral Services": "Yes",
+    "Payout": "Death",
+    "Eligibility": "Australian Permanent Resident",
+    "Description": "Provides a lump sum payment in the event of death or diagnosis of \\a terminal illness where death is likely within 24 months.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_Life",
+    "Age Range": "56-65",
+    "Minimum Cover": 100000,
+    "Maximum Cover": 500000,
+    "Funeral Services": "Yes",
+    "Payout": "Death",
+    "Eligibility": "Australian Permanent Resident",
+    "Description": "Provides a lump sum payment in the event of death or diagnosis of a terminal illness where death is likely within 24 months.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_Critical Illness",
+    "Age Range": "16-45",
+    "Minimum Cover": "Nil",
+    "Maximum Cover": 500000,
+    "Funeral Services": "Nil",
+    "Payout": "14 critical Illness",
+    "Eligibility": "Must be combined with life cover",
+    "Description": "Optional add-on that provides a lump sum payment if diagnosed with one of 14 defined critical illnesses, including certain types of vascular disease, cardiac surgery, specified cancers, degenerative diseases, and major organ failure.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_Critical Illness",
+    "Age Range": "46-55",
+    "Minimum Cover": "Nil",
+    "Maximum Cover": 500000,
+    "Funeral Services": "Nil",
+    "Payout": " 14 critical illness",
+    "Eligibility": "Must be combined with life cover",
+    "Description": "Optional add-on that provides a lump sum payment if diagnosed with one of 14 defined critical illnesses, including certain types of vascular disease, cardiac surgery, specified cancers, degenerative diseases, and major organ failure.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_TPD",
+    "Age Range": "16-45",
+    "Minimum Cover": 100000,
+    "Maximum Cover": 1500000,
+    "Funeral Services": "Nil",
+    "Payout": "Physical Impariment",
+    "Eligibility": "Must be working at least 20 hours and also combied with life cover",
+    "Description": "Optional add-on that provides a lump sum payment if unable to ever work again due to sickness, injury, or major physical impairment.",
+    "Company": "Allianz"
+  },
+  {
+    "Product": "Allianz_TPD",
+    "Age Range": "46-55",
+    "Minimum Cover": 100000,
+    "Maximum Cover": 1000000,
+    "Funeral Services": "Nil",
+    "Payout": "Physical Impariment",
+    "Eligibility": "Must be working at least 20 hours and also combied with life cover",
+    "Description": "Optional add-on that provides a lump sum payment if unable to ever work again due to sickness, injury, or major physical impairment.",
+    "Company": "Allianz"
+  }
+]
