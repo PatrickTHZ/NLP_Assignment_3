@@ -10,7 +10,7 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 products_index = pc.Index(PRODUCT_INDEX_NAME)
 reviews_index = pc.Index(REVIEW_INDEX_NAME)
 
-query = "What does AIA Life Insurance review?"
+query = "Should I buy AIA lift insurance? Can you research on some of it review?"
 embedding_ada = generate_embeddings(query, model="text-embedding-ada-002")
 embedding_babbage = generate_embeddings(query, model="text-embedding-3-small", dimensions=768)
 
@@ -81,10 +81,10 @@ Question: {query}
 """
 
 prompt_map_reduce = [
-    f"What is the payout for AIA Crisis Recovery?\nContext:\n{product_context}",
-    f"What conditions trigger AIA Crisis Recovery?\nContext:\n{product_context}",
-    f"Does the review mention Crisis Recovery?\nContext:\n{review_context}"
+    f"Answer this question based on product data:\nContext:\n{product_context}\n\nQuestion: {query}",
+    f"Answer this question based on review data:\nContext:\n{review_context}\n\nQuestion: {query}"
 ]
+
 
 prompt_react_cot = f"""
 You are a professional assistant. Start by thinking step-by-step. Then explain your answer with reasoning and take action if needed.
@@ -131,4 +131,5 @@ print("\n--- Stuffing + Summarisation ---\n", run_prompt(prompt_stuff_summarise)
 print("\n--- No RAG (Direct LLM) ---\n", run_prompt(prompt_no_rag))
 
 map_reduce_results = [run_prompt(p) for p in prompt_map_reduce]
-print("\n--- Map-Reduce ---\n", "\n---\n".join(map_reduce_results))
+combined_answer = "\n".join(map_reduce_results)
+print("\n--- Map-Reduce (Combined Result) ---\n", combined_answer)
